@@ -1,5 +1,32 @@
 puts "🌱 Seeding spices..."
 
-# Seed your database here
+Record.create(artist: "The Juan Maclean", album: "The Future Will Come", year: 2009, image_url: "https://f4.bcbits.com/img/a1565403004_16.jpg")
+Record.create(artist: "Wu-Tang Clan", album: "Enter the 36 Chambers", year: 1993, image_url: "http://cdn.shopify.com/s/files/1/1477/9384/articles/wu_tang_clan_enter_the_wu_tang_36_chambers.jpeg?v=1481162833")
+Record.create(artist: "Crosby, Stills, & Nash", album: "Crosby, Stills, & Nash", year: 1969, image_url: "https://i.discogs.com/nEb-4bqtcWmVDy-RMDZ4RNBhiTk8GNOeqN3b4QGO7jc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTE0/NDkzLTE1NDgzMDE5/MjUtODg1My5qcGVn.jpeg")
+Record.create(artist: "Rush", album: "2112", year: 1976, image_url: "https://i.discogs.com/YrnyN2jcdHOA9-AszBlKuA2mbP8niRkCbB7JiSOSMeM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyNTU1/NTgtMTQ2Mzg2NjU5/NC05MjczLmpwZWc.jpeg")
+Record.create(artist: "The Fall of Troy", album: "Doppelgänger", year: 2005, image_url: "https://lastfm.freetls.fastly.net/i/u/ar0/a05017ec0a5b44128f7e620a298d0170")
+Record.create(artist: "Lizzy Mercier Descloux", album: "Mambo Nassau", year: 1982, image_url: "https://i.discogs.com/ofsvoMhANglH-8jv14C-0I6EdqSlxD6s7e3RS4F8fG0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1OTk2/NzgtMTQ0MDY3OTI5/Mi05MzM0LmpwZWc.jpeg")
+Record.create(artist: "Shit Robot", album: "From The Cradle To The Rave", year: 2010, image_url: "https://i.discogs.com/FpNwKcE4WRw3mbpIdc66CzMMRFwntcdqW1p7PTX2h34/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MjAz/NzMtMTI5OTcwNTky/OS5qcGVn.jpeg")
+Record.create(artist: "Grimes", album: "Visions", year: 2010, image_url: "https://i.discogs.com/XGCvwxGQBWgiRYXPPWohlzNVWEQa-MwqSGQIqLHpVM4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MTk2/NjgtMTYzNjc4MTI0/MC0yNjYwLmpwZWc.jpeg")
+Record.create(artist: "Cobra Man", album: "Toxic Planet", year: 2018, image_url: "https://i.discogs.com/qedQbW5kBUuBe77poaJfc5f3OuY0U9kVm0l31oI8cu8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzUy/NTIyLTE1NDEyNzcy/MjktODQ3Mi5qcGVn.jpeg")
+Record.create(artist: "The Smiths", album: "The Queen Is Dead", year: 1986, image_url: "https://i.discogs.com/RKqoV7VZLSHBBmfWTpVlRk2dXgAsiLpugLjVrspBTQk/rs:fit/g:sm/q:90/h:565/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNTk3/ODAtMTU4MDkyOTQ2/OC0yNzYyLmpwZWc.jpeg")
+Record.create(artist: "Ini Kamoze", album: "Ini Kamoze", year: 1984, image_url: "https://i.discogs.com/q64f2_rJAPLLyVZoCNsTkZeA-V-olmSNC95Xg_k4JBw/rs:fit/g:sm/q:90/h:595/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1Mzk0/MjctMTQyMTU1NjQ0/Ny0yMTk0LmpwZWc.jpeg")
+Record.create(artist: "Eek-A-Mouse", album: "Mouseketeer", year: 1984, image_url: "https://i.discogs.com/IIHhti2Ur1OqKam3GBGM_NTDhuT4Hq2DzVsYNo3RjIo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMDQw/NC0xMjExMjczOTQ0/LmpwZWc.jpeg")
+Record.create(artist: "Oingo Boingo", album: "Oingo Boingo EP", year: 1980, image_url:"https://i.discogs.com/FLwgAi3rMH_1tNtvNg_S2Rtn-wcBts89YjeexfCo3lE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MDA4/MzU0LTE1ODU0MzQ1/MTgtNzUzMS5qcGVn.jpeg")
+Record.create(artist: "Barrington Levy", album: "Englishman", year: 1979, image_url: "https://i.discogs.com/sb9UnO0PHO5efQWgxYubFLCsp_6rw74Wi-xifFjDjFo/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwOTYy/OC0xNTgzNzY1MTAw/LTgxMzUuanBlZw.jpeg")
+Record.create(artist: "Grizzly Bear", album: "Shields", year: 2012, image_url: "https://i.discogs.com/WUse1n1O7y-9JpIlJag7VxFJ3NgsH9KlxT2uOoin18Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NzMy/NDUtMTM0Nzg4MzY3/Mi03NjMzLmpwZWc.jpeg")
+Record.create(artist: "Devo", album: "B Stiff = ビー・スティッフ", year: 1979, image_url: "https://i.discogs.com/AP-PQDmigvISmgqcjWdO-SpLEUE8DYMUGJQAliBWXck/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjIx/NTktMTYwNTExNDE1/MC0zMTg2LmpwZWc.jpeg")
+Record.create(artist: "Don Caballero", album: "American Don", year: 2000, image_url: "https://i.discogs.com/bI04k79PX-D2zOmg--OSfaHFxc-dgD4RCVqO6VFyyW0/rs:fit/g:sm/q:90/h:599/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDk0/OTczLTE0OTE1MTE1/OTQtNTkyNS5qcGVn.jpeg")
+Record.create(artist: "Pat Metheny & Lyle Mays", album: "As Falls Wichita, So Falls Wichita Falls", year: 1981, image_url: "https://i.discogs.com/2YeU7bacR3PAVZu2NHeFf3JuOSpVAW6nGomwLfJdf0g/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4Mzkw/MTAtMTUyMDIwNjk5/MS0yMDM1LmpwZWc.jpeg")
+Record.create(artist: "Between the Buried and Me", album: "The Silent Circus", year: 2003, image_url: "https://i.discogs.com/0tw_GREa3moKRaQM9UjtJRR_s-1vwk3BDwdt3OArm-I/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNTk0/NDgtMTQzMjc0OTc2/MS0xNTY1LmpwZWc.jpeg")
+Record.create(artist: "The Gladiators", album: "Serious Thing", year: 1984, image_url: "https://i.discogs.com/5vuCIFn8tSZlp4ny6j1KsU5mFxJ2lqwlpMdyMXaQ4m4/rs:fit/g:sm/q:90/h:595/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNjA4/MzItMTM5NTc2Njky/OC0yODExLmpwZWc.jpeg")
+Record.create(artist: "King Crimson", album: "Discipline", year: 1981, image_url: "https://i.discogs.com/X1qFsMDuIqjD2R6_Ol2pG8L5k55TrT6xMOeKb4nm5Hc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3ODA1/OC0xMTkxODg4NjI1/LmpwZWc.jpeg")
+Record.create(artist: "The Fall of Troy", album: "Manipulator", year: 2011, image_url: "https://i.ytimg.com/vi/7rEacNitEFc/maxresdefault.jpg")
+Record.create(artist: "Hadley Caliman", album: "Iapetus", year: 1971, image_url: "https://i.discogs.com/Jb5WLXSstfrOHhUyFbbqeWecJb4lGgQHhLfU0PAf07s/rs:fit/g:sm/q:90/h:567/w:571/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNTA3/MTktMTI5NjYwNjM0/OC5qcGVn.jpeg")
+Record.create(artist: "Tera Melos", album: "Trash Generator", year: 2017, image_url: "https://i.discogs.com/vbjO1z-ps5AU2MxfbaDTEwo5c0Mb_UFD4o5anC8RvMw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzUy/NzM2LTE1MDM2ODE1/ODItNTE2My5qcGVn.jpeg")
+Record.create(artist: "Tera Melos", album: "Untitled", year: "2005", image_url: "https://f4.bcbits.com/img/a3727102709_65")
+Record.create(artist: "Tera Melos", album: "Drugs To The Dear Youth", year: 2007, image_url: "https://i.discogs.com/WOtgXgHcsrzvc7BSZ2YGAoqRWjmJ63O9tY6GGk3N7vc/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyNjgx/NTUtMTM4NzQwNTU3/MS03NjU5LmpwZWc.jpeg")
+
+
 
 puts "✅ Done seeding!"
