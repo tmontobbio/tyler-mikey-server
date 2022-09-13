@@ -4,6 +4,7 @@ class CreateRecords < ActiveRecord::Migration[6.1]
       t.string :image_url
       t.string :artist
       t.string :album
+      t.integer :year
       t.string :track_list
     end
   end

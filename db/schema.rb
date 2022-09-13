@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 2022_09_13_200551) do
     t.string "image_url"
     t.string "artist"
     t.string "album"
+    t.integer "year"
     t.string "track_list"
   end
 
