@@ -1,4 +1,6 @@
 class Comment < ActiveRecord::Base
     belongs_to :record
-    belongs_to :user
+
+    def all_comments
+    end
 end
